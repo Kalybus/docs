@@ -13,6 +13,7 @@ $ sudo mount /dev/archvg/arch_root /mnt/backup_root
 
 ### Useful software
 Archlinux packages to be installed:
+- dunst (notification engine)
 - gedit
 - gscreenshot
 - alsa-utils
@@ -23,6 +24,13 @@ Archlinux packages to be installed:
 - blueberry
 - ttf-noto-nerd (music icon in waybar)
 - apple-fonts (yay)
+- hyprpicker
+- nwg-look (gui to configure gtk themes)
+- jq
+- grim-hyprland (aur)
+- scdoc (undeclared grim-hyprland dependency)
+- fzf
+- hyprshell-bin (yay)
 
 ## Configure Dracula theme
 ```bash
