@@ -17,6 +17,23 @@ Archlinux packages to be installed:
 - gscreenshot
 - alsa-utils
 - pulseaudio
+- waybar
+- wlogout
+- brightnessctl
+- blueberry
+- ttf-noto-nerd (music icon in waybar)
+- apple-fonts (yay)
+
+## Configure Dracula theme
+```bash
+# Download Dracula theme and unzip in /usr/share/themes. The folder must be named Dracula
+gsettings set org.gnome.desktop.interface gtk-theme "Dracula"
+gsettings set org.gnome.desktop.wm.preferences theme "Dracula"
+
+
+sudo git clone https://github.com/m4thewz/dracula-icons /usr/share/icons/dracula-icons
+gsettings set org.gnome.desktop.interface icon-theme "dracula-icons"
+```
 
 
 ## XPS 13 (9310)
